@@ -1,0 +1,170 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; /*copied from 'selected families'google fonts*/
+}
+
+h1{
+  /* Exercise 1: margin-top: 50px;*/ /*pushes the h1 down and centres it more on page - em and percentage can also be applied.*/
+  margin:50px auto 0 auto; /* "round the clock" used to also close the gap slightly between h1 and h2*/
+  font-family: 'Sacramento', cursive;/*copied from 'selected families'google fonts*/
+  font-size: 5.625rem;
+  color: #66BFBF;
+  /*line-height: 2;*/
+}
+
+
+h2{
+  font-family: 'Montserrat', sans-serif;/*copied from 'selected families'google fonts*/
+  font-size:1.5em; /*40 pixels - 40px/16px=2.5rem or em or 250% */
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Merriweather Sans', sans-serif;/*copied from 'selected families'google fonts*/
+  color: #11999E;
+  font-size: 1em;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+.top_container{
+  position:relative;
+  background-color: #EAF6F6;
+  padding-top:100px;
+}
+
+.middle_container{
+  margin: 100px 0;
+}
+
+.bottom_container{
+  background-color: #6FBFBF;
+  margin-bottom: 0;
+  padding: 50px 0 20px;
+}
+
+
+.top_cloud{
+  position: relative;
+  left: 300px;
+}
+
+.bottom_cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile_pic{
+  width: 15%;
+  margin-bottom: 10px;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  /*position: relative;
+  left: 25%;*/
+}
+
+.laptop-img{
+  height:30%;
+  width:30%;
+  float: left;
+  margin-right: 30px;
+}
+
+/*.designskill-txt{
+  padding-left: 35%;
+}
+.designskill-txt{
+  clear:left;
+}*/
+
+.coffee-img{
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.coffee-txt{
+  padding-right: 25%;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(top bottom, #11cdde, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif; /*edited to match rest of web page*/
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2cb4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2cb4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2cb4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2cb4ad);
+  background-image: linear-gradient(top bottom, #30e3cb, #2cb4ad);
+  text-decoration: none;
+}
+
+.footer-link{
+  margin:20px 20px;
+}
+
+.icon-ref{
+  margin-top:30px;
+  font-size: 0.75rem;
+  color: #EAF6F6;
+}
+
+.copyright{
+  font-size: 0.75rem;
+  color: #EAF6F6;
+}
